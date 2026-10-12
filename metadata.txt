@@ -1,0 +1,19 @@
+[general]
+
+name=DXF2GIS
+qgisMinimumVersion=3.34
+description=Convert DXF CAD geometry into GIS layers and export them to GeoPackage.
+about=DXF2GIS converts supported DXF CAD geometry into GIS vector layers in QGIS. It supports POINT, LINE, LWPOLYLINE and SOLID entities, assigns the coordinate reference system selected by the user, preserves the original CAD layer and entity type as attributes, and exports the resulting Point, Line and Polygon layers to a GeoPackage. DXF2GIS requires the Python package ezdxf to read DXF files.
+version=1.0.0
+author=Akachukwu Okoro
+email=okoroakachukwu@gmail.com
+category=Vector
+repository=https://github.com/Akachukwu123/dxftogisconverter
+tracker=https://github.com/Akachukwu123/dxftogisconverter/issues
+homepage=https://github.com/Akachukwu123/dxftogisconverter
+icon=icon.png
+license=GPL-2.0-or-later
+tags=DXF,CAD,GIS,GeoPackage,surveying,conversion
+experimental=False
+deprecated=False
+changelog=1.0.0 - Initial public release with DXF geometry conversion, CRS selection and GeoPackage export.
